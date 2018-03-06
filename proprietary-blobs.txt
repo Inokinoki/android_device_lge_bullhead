@@ -18,23 +18,6 @@
 #
 # <src relative to root of extracted filesystem>:<dst relative to system>
 
--app/HiddenMenu/HiddenMenu.apk
--app/RCSBootstraputil/RCSBootstraputil.apk
--app/RcsImsBootstraputil/RcsImsBootstraputil.apk
--app/TimeService/TimeService.apk
--app/Tycho/Tycho.apk:app/Tycho/Tycho.apk:PRESIGNED
--priv-app/atfwd/atfwd.apk
--priv-app/CNEService/CNEService.apk
--priv-app/ConnMO/ConnMO.apk
--priv-app/DCMO/DCMO.apk
--priv-app/DiagMon/DiagMon.apk
--priv-app/DMConfigUpdate/DMConfigUpdate.apk
--priv-app/DMService/DMService.apk
--priv-app/GCS/GCS.apk:priv-app/GCS/GCS.apk:PRESIGNED
--priv-app/HotwordEnrollment/HotwordEnrollment.apk:priv-app/HotwordEnrollment/HotwordEnrollment.apk:PRESIGNED
--priv-app/LifeTimerService/LifeTimerService.apk
--priv-app/SprintDM/SprintDM.apk
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 bin/ATFWD-daemon
 bin/btnvtool
 bin/cnd

@@ -17,8 +17,6 @@
 #
 # <src relative to root of extracted filesystem>:<dst relative to system>
 
--app/datastatusnotification/datastatusnotification.apk
--app/ims/ims.apk
 lib64/libimscamera_jni.so
 lib64/libimscamera_jni.so:app/ims/lib/arm64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
