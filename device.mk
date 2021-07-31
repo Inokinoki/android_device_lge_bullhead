@@ -302,11 +302,12 @@ PRODUCT_PACKAGES += \
 endif
 
 # sensor utilities (only for userdebug and eng builds)
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-PRODUCT_PACKAGES += \
-    nanotool \
-    sensortest
-endif
+# Halium: Do not build them
+# ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+# PRODUCT_PACKAGES += \
+#     nanotool \
+#     sensortest
+# endif
 
 # Library used for VTS profiling (only for userdebug and eng builds)
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
